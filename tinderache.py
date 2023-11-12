@@ -149,7 +149,7 @@ def compare_companies(company1, company2):
 # API details
 url = 'https://data.veridion.com/match/v4/companies'
 headers = {
-    "x-api-key": "Lk34BnMBMFDj07xGbkQ_aNikeD4_NSKq643WxEEuQUAcjtbrVJStX9FpASw7",  # Replace with your API key
+    "x-api-key": "",  # Replace with your API key
     "Content-type": "application/json"
 }
 
@@ -252,7 +252,7 @@ def read_csv_data(file_path):
 companies_data = read_csv_data('extracted_data.csv')
 
 def query_gpt_api(prompt):
-    openai.api_key = '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'  # Replace with your OpenAI API key
+    openai.api_key = ''  # Replace with your OpenAI API key
 
     try:
         response = openai.ChatCompletion.create(
