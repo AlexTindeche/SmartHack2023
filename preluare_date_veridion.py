@@ -40,7 +40,7 @@ def write_to_csv(data, csv_file, fields_to_extract):
 if __name__ == "__main__":
     api_url = 'https://data.soleadify.com/search/v1/companies?page_size=10'
     
-    bearer_token = 'pXStedvXkA9pMcNK1tWvx_4DesmTsIZ47qfTa6WkqFxgrCvCqJA0mpALQ53J'
+    bearer_token = ''
     pagination_token = ''
     
     # Include all relevant fields in the "fields_to_extract" list
